@@ -1,0 +1,5 @@
+[
+    { "id": 1, "valor": "opcion1", "texto": "N/A" },
+    { "id": 2, "valor": "opcion2", "texto": "HRP" },
+    { "id": 3, "valor": "opcion3", "texto": "GRP" }
+  ]

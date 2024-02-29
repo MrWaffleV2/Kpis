@@ -1,0 +1,5 @@
+[
+    { "id": 1, "valor": "opcion1", "texto": "2020" },
+    { "id": 2, "valor": "opcion2", "texto": "2021" },
+    { "id": 3, "valor": "opcion3", "texto": "2022" }
+  ]

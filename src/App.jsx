@@ -1,23 +1,23 @@
 // import { useState } from 'react'
-import {Header} from "./components/Header"
+import {Header} from "./components/Tablas/Header"
 import './App.css'
-import { StaffInfo } from './components/StaffInfo'
+import { StaffInfo } from './components/Tablas/StaffInfo'
 // import { Catalogo } from './components/Catalogo'
-import { Var } from './components/Var'
+import { Var } from './components/Tablas/Var'
 import { MenuLateral } from './components/MenuLateralVista/MenuLateral'
 //prueba
 
 import React, { useEffect,useState } from 'react';
-import { Descripcion } from '../src/components/Descripcion'
-import { Technology } from '../src/components/Technology'
-import { Knowledge } from '../src/components/Knowledge'
-import { Software } from '../src/components/Software'
-import { TRaining } from '../src/components/TRaining'
-import { Impacts } from '../src/components/Impacts'
-import { Raising } from '../src/components/Raising'
-import { Visibility } from '../src/components/Visibility'
-import { Institucion } from '../src/components/Institucion'
-import { Other } from '../src/components/Other'
+import { Descripcion } from './components/Tablas/Descripcion'
+import { Technology } from './components/Tablas/Technology'
+import { Knowledge } from './components/Tablas/Knowledge'
+import { Software } from './components/Tablas/Software'
+import { TRaining } from './components/Tablas/TRaining'
+import { Impacts } from './components/Tablas/Impacts'
+import { Raising } from './components/Tablas/Raising'
+import { Visibility } from './components/Tablas/Visibility'
+import { Institucion } from './components/Tablas/Institucion'
+import { Other } from './components/Tablas/Other'
 //prueba
 
 

@@ -4,16 +4,16 @@ import '../../Styles/MenuStyle.css'
 //prueba
 
 import React, { useEffect,useState } from 'react';
-import { Descripcion } from '../Descripcion'
-import { Technology } from '../Technology'
-import { Knowledge } from '../Knowledge'
-import { Software } from '../Software'
-import { TRaining } from '../TRaining'
-import { Impacts } from '../Impacts'
-import { Raising } from '../Raising'
-import { Visibility } from '../Visibility'
-import { Institucion } from '../Institucion'
-import { Other } from '../Other'
+import { Descripcion } from '../Tablas/Descripcion'
+import { Technology } from '../Tablas/Technology'
+import { Knowledge } from '../Tablas/Knowledge'
+import { Software } from '../Tablas/Software'
+import { TRaining } from '../Tablas/TRaining'
+import { Impacts } from '../Tablas/Impacts'
+import { Raising } from '../Tablas/Raising'
+import { Visibility } from '../Tablas/Visibility'
+import { Institucion } from '../Tablas/Institucion'
+import { Other } from '../Tablas/Other'
 
 //prueba
 

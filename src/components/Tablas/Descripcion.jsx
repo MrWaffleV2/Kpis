@@ -2,11 +2,11 @@
 import './style.css';
 import React from 'react';
 import { useReactTable, getCoreRowModel, flexRender, getSortedRowModel, getFilteredRowModel } from '@tanstack/react-table';
-import data from "../Data.json";
-import Maize from "../Maize.json";
+import data from "../../Data.json";
+import Maize from "../../Maize.json";
 import { useState, useEffect } from 'react';
-import Popup from "../components/Modal/Modal";
-import App from "././../App";
+import Popup from "../Modal/Modal";
+import App from "../../App";
 
 export const Descripcion = () => {
 
@@ -193,12 +193,6 @@ export const Descripcion = () => {
           <a onClick={boton2}><span>Breeder Seed Produced</span></a>
           <a onClick={boton2}><span>Seed Shipment</span></a>
           <a onClick={boton2}><span>CIMMYT Maize Line</span></a>
-
-          {/* <button id='boton2' onClick={boton2}>CIMMYT Maize Line</button>
-          <button id='boton3'>Germplasm Characterized On Molecular Level</button>
-          <button id='boton4'>Germplasm Characterized On Phenotypic Level</button>
-          <button id='boton5'>Breeder Seed Produced</button>
-          <button id='boton6'>Seed Shipment</button> */}
 
         </div>
 

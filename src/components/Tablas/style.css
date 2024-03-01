@@ -233,13 +233,18 @@ th a:hover {
     bottom: -100px;
     border-radius: 8px;
     background-color: #454545e3;
-    /* box-shadow: rgb(255 254 255 / 89%) -19px -11px 40px -18px inset, rgb(0 0 0 / 93%) -18px -8px 51px -14px inset, rgb(173 173 173 / 44%) 9px -48px 80px; */
-    box-shadow: rgb(255 254 255 / 89%) -16px 20px 36px -17px inset, rgb(0 0 0 / 96%) -13px 11px 12px -12px inset, rgb(173 173 173 / 36%) 3px -46px 55px;
-    padding-bottom: 80px;
+    box-shadow: rgb(255 254 255 / 41%) 0px 174px 40px -53px inset, rgb(0 0 0 / 0%) -13px 11px 12px -12px inset, rgb(173 173 173 / 36%) 3px -46px 55px;
+    /* box-shadow: rgb(255 254 255 / 45%) -3px 32px 32px -14px inset, rgb(0 0 0 / 96%) -13px 11px 12px -12px inset, rgb(173 173 173 / 36%) 3px -46px 55px;
+    padding-bottom: 80px; */
     padding-top: 1px;
     background: linear-gradient(to bottom, #454545e3, transparent);
+    margin-left: -18px;
+    margin-right: -25px;
 }
-
+#tabla div, #tabla h1, #tabla p {
+    padding-right: 29px;
+    padding-left: 1%;
+}
 
 #autotable {
     width: 100%;
@@ -334,7 +339,7 @@ p {
     padding: 7px;
     color: #ffffff;
     text-transform: uppercase;
-    letter-spacing: 2px;
+    letter-spacing: 1.5px;
     position: relative;
     display: inline-block;
     margin-left: 3px;
